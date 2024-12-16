@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212; /* Dark background color for the whole page */
+    color: white;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    background-color: black; /* Dark background for header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+h1 {
+    font-size: 2.5em;
+    color: #457ac0;
+    margin-bottom: 1000px;
+}
+.logo {
+    font-size: 2.5rem;
+    color: #b74b4b;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    color: #b74b4b;
+}
+
+section {
+    padding: 6rem 10%;
+    margin-top: 6rem;
+    background-color: #1f1f1f; /* Light gray background for sections */
+    border-radius: 10px;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 3px solid #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.profile-container h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #b74b4b;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-img {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.logout-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.logout-btn {
+    padding: 1rem 2rem;
+    background-color: #b74b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: #b74b4b;
+    transform: scale(1.05);
+} 

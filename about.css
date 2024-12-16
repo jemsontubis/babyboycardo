@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(cc.jpg);
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    font-size: 1.9em;
+    margin-bottom: 100px;
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #457ac0;
+    margin-bottom: 15px;
+}
+
+.luxmundi-description {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #4caf50; 
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
